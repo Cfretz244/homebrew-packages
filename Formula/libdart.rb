@@ -37,6 +37,7 @@ class Libdart < Formula
       assert(pkt.size() == 3U);
       assert(pkt["yes"] == "no");
       assert(pkt["stop"] == "go");
+      assert(!pkt.to_json().empty());
     }
     DRIVER
     system ENV.cxx, 'test.cc', "-I#{include}", '-std=c++14', '-o', 'test'
