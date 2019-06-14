@@ -3,7 +3,7 @@ class Libdart < Formula
   desc 'A high performance, network optimized, JSON library'
   homepage 'https://github.com/target/libdart'
   url 'https://github.com/target/libdart/tarball/master'
-  sha256 'cff28009008af33222c5308ef083933c88dd93df0c555b26092472011f78e913'
+  sha256 'cc077e60946f2ffea32cd44cf865fdae536bd557e6d933a668e8ad5eff048b1a'
   head 'https://github.com/target/libdart', branch: 'master'
   version '0.9.0'
 
