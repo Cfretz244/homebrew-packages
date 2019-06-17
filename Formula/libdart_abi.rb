@@ -2,10 +2,9 @@ class LibdartAbi < Formula
   # Basic formula configurations.
   desc 'A high performance, network optimized, JSON library'
   homepage 'https://github.com/target/libdart'
-  url 'https://github.com/target/libdart/tarball/master'
-  sha256 'cc077e60946f2ffea32cd44cf865fdae536bd557e6d933a668e8ad5eff048b1a'
+  url 'https://github.com/target/libdart/archive/v0.9.0.tar.gz'
+  sha256 'ed012bae80aed08485e0fbd6da7f2a9fe9b6aa74a345864659b8b12a988c0b2c'
   head 'https://github.com/target/libdart', branch: 'master'
-  version '0.9.0'
 
   # List dependencies.
   depends_on 'cmake'
